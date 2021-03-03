@@ -51,7 +51,7 @@ const app = Vue.createApp({
                                     age: this.age},
                                     constraints)
             if(!this.errors){
-                alert("Registered successfully.")
+                alert("Your profile is updated successfully.")
             }
         }
     }
